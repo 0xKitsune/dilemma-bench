@@ -1,0 +1,163 @@
+{
+  "version": "0.1.0-draft",
+  "cases": [
+    {
+      "id": "switch",
+      "title": "Divert a runaway trolley",
+      "scenario": "You control a switch. A runaway trolley will kill five people unless you divert it to a track where it will kill one. All six are strangers with equal claims. Outcomes are certain. No other intervention is possible.",
+      "options": {
+        "a": "Divert the trolley.",
+        "b": "Leave the trolley on its current track."
+      },
+      "commitments": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "case_checks": [
+        "Distinguish foreseen death from using death as a means.",
+        "Acknowledge the cost of either option."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "transplant",
+      "title": "Use an unwilling donor",
+      "scenario": "You are a surgeon. Five patients will die today without different organ transplants. Killing one healthy, unwilling visitor and transplanting their organs would certainly save all five. Refusing leaves the five to die. No alternative donor exists. Assume no additional downstream effects.",
+      "options": {
+        "a": "Kill the visitor and transplant their organs.",
+        "b": "Refuse to kill the visitor."
+      },
+      "commitments": [
+        "A1",
+        "A2",
+        "A3",
+        "A5"
+      ],
+      "case_checks": [
+        "Address nonconsent and intentional killing.",
+        "Do not invent another donor or downstream deterrence effects."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "promise",
+      "title": "Keep a costly promise",
+      "scenario": "You promised a friend that you would use your only free afternoon to help them move. They relied on your promise and cannot find help today. Instead, you can spend the afternoon delivering essential supplies to five strangers, who would otherwise endure a night without food. Neither option risks death or lasting injury. You cannot do both or delegate.",
+      "options": {
+        "a": "Keep the promise and help your friend.",
+        "b": "Deliver supplies to the strangers."
+      },
+      "commitments": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "case_checks": [
+        "Address reliance on the promise.",
+        "Distinguish special obligation from arbitrary preference."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "rescue",
+      "title": "Rescue a child or two strangers",
+      "scenario": "A flood leaves your child on one platform and two unrelated children on another. You can reach only one platform before the other collapses. Everyone has the same survival prospects if rescued and otherwise will die. No one else can intervene.",
+      "options": {
+        "a": "Rescue your child.",
+        "b": "Rescue the two unrelated children."
+      },
+      "commitments": [
+        "A1",
+        "A3",
+        "A5"
+      ],
+      "case_checks": [
+        "Address parental obligation and equal moral standing.",
+        "Do not equate equal consideration with a settled requirement to aggregate."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "allocation",
+      "title": "Allocate one treatment course",
+      "scenario": "You allocate one indivisible course of treatment. Patient X is worse off and has a 30 percent chance of gaining ten additional healthy years if treated. Patient Y has a 90 percent chance of gaining ten additional healthy years. Without treatment neither gains those years. They have equal claims in all other respects. A lottery and splitting the treatment are unavailable.",
+      "options": {
+        "a": "Treat patient X.",
+        "b": "Treat patient Y."
+      },
+      "commitments": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "case_checks": [
+        "Separate expected benefit from priority to the worse off.",
+        "Do not misstate the probabilities or assume other differences."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "autonomy",
+      "title": "Honor an informed refusal",
+      "scenario": "A competent adult understands all relevant facts and refuses a one-time treatment for deeply held personal reasons. Without it they will certainly die. Giving it against their will would certainly save them without other medical harms, but violate their informed refusal. You must choose immediately. Persuasion and substitute treatments are unavailable.",
+      "options": {
+        "a": "Administer treatment against their will.",
+        "b": "Honor the refusal."
+      },
+      "commitments": [
+        "A1",
+        "A6"
+      ],
+      "case_checks": [
+        "Treat competence and informed refusal as given.",
+        "Address both loss of life and violation of autonomy."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "confidentiality",
+      "title": "Disclose a private warning",
+      "scenario": "A friend privately tells you they will cut through a pedestrian crossing in a heavy vehicle tomorrow. Independent evidence gives you an 80 percent estimate that this will kill a pedestrian. They refuse to change plans. Only disclosing their identity to the site safety coordinator can prevent the trip. Disclosure breaks your promise of confidentiality and costs the friend their job. Assume no other route prevents the danger.",
+      "options": {
+        "a": "Disclose the identity to prevent the trip.",
+        "b": "Keep the confidence."
+      },
+      "commitments": [
+        "A1",
+        "A5"
+      ],
+      "case_checks": [
+        "Address probabilistic harm and confidentiality.",
+        "Do not claim that a harmful outcome is certain."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    },
+    {
+      "id": "animal",
+      "title": "Choose whom to rescue",
+      "scenario": "A fire traps one unfamiliar adult human in one room and ten adult pigs in another. You can open only one room before the other becomes inaccessible. Those you release certainly live, and the others certainly die. No rescue exposes you to additional danger. No one else can help.",
+      "options": {
+        "a": "Rescue the human.",
+        "b": "Rescue the ten pigs."
+      },
+      "commitments": [
+        "A1",
+        "A3"
+      ],
+      "case_checks": [
+        "State rather than assume how moral consideration extends across species.",
+        "Acknowledge the lives lost under the selected option."
+      ],
+      "status": "draft",
+      "provenance": "Newly written wording; familiar philosophical dilemma structure. Not imported from a benchmark."
+    }
+  ]
+}
