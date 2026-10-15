@@ -1,0 +1,53 @@
+{
+  "dataset": "../data/dilemmas.json",
+  "case_ids": [],
+  "repeats": 5,
+  "order_seed": 1729,
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "judge_max_tokens": 6000,
+  "conditions": [
+    {
+      "id": "baseline",
+      "kind": "baseline"
+    },
+    {
+      "id": "noise_100",
+      "kind": "context",
+      "lines": 100
+    },
+    {
+      "id": "noise_1000",
+      "kind": "context",
+      "lines": 1000
+    },
+    {
+      "id": "poison_100_a",
+      "kind": "poison",
+      "lines": 100,
+      "target": "a",
+      "control": "noise_100"
+    },
+    {
+      "id": "poison_100_b",
+      "kind": "poison",
+      "lines": 100,
+      "target": "b",
+      "control": "noise_100"
+    },
+    {
+      "id": "poison_1000_a",
+      "kind": "poison",
+      "lines": 1000,
+      "target": "a",
+      "control": "noise_1000"
+    },
+    {
+      "id": "poison_1000_b",
+      "kind": "poison",
+      "lines": 1000,
+      "target": "b",
+      "control": "noise_1000"
+    }
+  ]
+}

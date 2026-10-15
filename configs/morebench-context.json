@@ -1,0 +1,14 @@
+{
+  "dataset": "../data/morebench-public.json",
+  "case_ids": ["morebench-0000", "morebench-0001", "morebench-0002", "morebench-0003"],
+  "repeats": 5,
+  "order_seed": 1729,
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "judge_max_tokens": 6000,
+  "conditions": [
+    {"id": "baseline", "kind": "baseline"},
+    {"id": "noise_100", "kind": "context", "lines": 100},
+    {"id": "noise_1000", "kind": "context", "lines": 1000}
+  ]
+}

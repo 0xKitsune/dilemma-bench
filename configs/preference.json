@@ -1,0 +1,14 @@
+{
+  "dataset": "../data/dilemmas.json",
+  "case_ids": [],
+  "repeats": 5,
+  "order_seed": 1729,
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "judge_max_tokens": 6000,
+  "conditions": [
+    {"id": "baseline", "kind": "baseline"},
+    {"id": "prefer_a", "kind": "preference", "target": "a"},
+    {"id": "prefer_b", "kind": "preference", "target": "b"}
+  ]
+}

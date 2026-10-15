@@ -11,6 +11,8 @@ There are established research methods for evaluating moral responses, but the s
 
 [Are LLMs Bad at Moral Reasoning?](https://arxiv.org/abs/2606.11635) challenges conclusions drawn from MoReBench by changing the elicitation task. This motivates checking whether a rubric measures defensible reasoning or merely coverage of its authors' preferred considerations.
 
-Our proposed combination is case-specific reasoning rubrics, descriptive moral profiles, and controlled prompt variations. This combination is a design proposal, not a validated research standard. The sources do not validate our cases, criteria, weights, or judge prompts.
+Our current direction uses MoReBench as an evaluation resource for controlled prompt interventions. The local pilot also includes descriptive moral profiles. This combination is a design proposal, not a validated research standard. The sources do not validate our cases, criteria, weights, or judge prompts.
 
-Review source dataset licenses and attribution requirements before importing examples. The starter cases in this repository use newly written wording inspired by familiar dilemma structures. They are not copied benchmark rows. Public cases may already be familiar to models. New wording does not establish freedom from contamination.
+Review source dataset licenses and attribution requirements before importing examples. The local starter cases in this repository use newly written wording inspired by familiar dilemma structures. They are not copied benchmark rows. Public cases may already be familiar to models. New wording does not establish freedom from contamination.
+
+The public importer and runtime are documented in the [runbook](runbook.md). The importer pins the public 500-case theory-neutral release; this differs from the paper's description of the full 1,000-scenario collection. Our structured output and grading protocol are adaptations, not a published-score reproduction.

@@ -5,3 +5,8 @@ runs/
 __pycache__/
 .venv/
 .DS_Store
+data/morebench-public.json
+data/morebench-public.csv
+*.egg-info/
+build/
+dist/
